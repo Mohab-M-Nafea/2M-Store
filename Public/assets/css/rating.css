@@ -1,0 +1,140 @@
+/* .rate {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.rate label {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rate label .icon{
+    content: '\f005';
+    color: #c7c7c7;
+    font: var(--fa-font-solid);
+}
+
+.rate label:last-child {
+    position: static;
+}
+
+.rate label:nth-child(1) {
+    z-index: 5;
+}
+
+.rate label:nth-child(2) {
+    z-index: 4;
+}
+
+.rate label:nth-child(3) {
+    z-index: 3;
+}
+
+.rate label:nth-child(4) {
+    z-index: 2;
+}
+
+.rate label:nth-child(5) {
+    z-index: 1;
+}
+
+.rate label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rate label:not(:hover) .icon {
+    float: left;
+    color: #c7c7c7;
+}
+
+.rate label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rate label:last-child .icon {
+    color: #c7c7c7;
+}
+
+.rate:not(:hover) label input:checked~.icon,
+.rate:hover label:hover input~.icon {
+    color: #ffba3f;
+}
+
+.rate label input:focus:not(:checked) ~ .icon:last-child {
+  color: #c7c7c7;
+  text-shadow: 0 0 5px #09f;
+} */
+
+.rate {
+    display: flex;
+    position: absolute;
+    /* position: relative; */
+    /* height: 50px;
+    line-height: 50px;
+    font-size: 50px; */
+}
+
+.rate label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+    line-height: 16px;
+}
+
+.rate label:last-child {
+    position: static;
+}
+
+.rate label:nth-child(1) {
+    z-index: 5;
+}
+
+.rate label:nth-child(2) {
+    z-index: 4;
+}
+
+.rate label:nth-child(3) {
+    z-index: 3;
+}
+
+.rate label:nth-child(4) {
+    z-index: 2;
+}
+
+.rate label:nth-child(5) {
+    z-index: 1;
+}
+
+.rate label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rate label .icon {
+    float: left;
+    color: transparent;
+}
+
+.rate label:last-child .icon {
+    color: #c7c7c7;
+}
+
+.rate:not(:hover) label input:checked~.icon,
+.rate:hover label:hover input~.icon {
+    color: #ffba3f;
+}

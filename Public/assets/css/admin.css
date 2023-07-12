@@ -1,0 +1,126 @@
+nav .navbar-brand,
+nav .fa-bars,
+nav .nav-link,
+nav .dropdown-item {
+    color: var(--bs-light);
+}
+
+nav .dropdown-item:hover {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+}
+
+.login{
+    min-height: calc(100vh - 58px);
+    min-width: 180px;
+}
+
+.header{
+    background: #fff;
+}
+
+.info a,
+.last-members a,
+.last-products a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+main .info{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+main .members-info {
+    background-color: #74b9ff;
+    border: 2px #65a4e2 solid;
+    border-radius: 0.25em;
+}
+
+main .categories-info {
+    background-color: #00cec9;
+    border: 2px #02bbb8 solid;
+    border-radius: 0.25em;
+}
+
+main .products-info {
+    background-color: #fab1a0;
+    border: 2px #df9e8f solid;
+    border-radius: 0.25em;
+}
+
+main .comments-info {
+    background-color: #ffeaa7;
+    border: 2px #e6d394 solid;
+    border-radius: 0.25em;
+}
+
+main .info svg {
+    font-size: 32px;
+    margin-left: 42px;
+}
+
+main .info .text {
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.last-members .table,
+.last-products .table {
+    margin-bottom: 0;
+}
+
+.upper-label label{
+    margin-bottom: 0.5rem;
+}
+
+.upper-label input{
+    padding: 1rem 0.75rem;
+}
+
+main div .members-table,
+main div .products-table {
+    max-height: calc(100vh - 285px);
+}
+
+main table tbody {
+    background-color: #fff;
+}
+
+table tbody td {
+    max-width: 150px;
+}
+
+table tbody .controls{
+    min-width: 160px;
+}
+
+table .btn {
+    padding: 3px 5px;
+}
+
+.state .visibility {
+    color: #eb3b5a;
+    font-weight: bold;
+}
+
+.state .ads {
+    color: #fa8231;
+    font-weight: bold;
+}
+
+form .form-switch{
+    display: flex;
+    align-items: center;
+}
+
+form .dropdown ul {
+    max-height: 200px;
+}
+
+form .dropdown .dropdown-menu {
+    overflow-y: auto;
+}

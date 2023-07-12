@@ -1,0 +1,133 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
+
+header{
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+nav .dropdown-menu[data-bs-popper]{
+    border: none;
+}
+
+nav .navbar-brand:hover,
+nav .nav-link:hover,
+nav .nav-link:focus{
+    color: var(--bs-secondary);
+}
+
+.invalid-feedback,
+label{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+form .dropdown .dropdown-toggle {
+    display: flex;
+    text-align: start;
+    position: relative;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ced4da;
+    padding: 1rem 0.75rem;
+}
+
+form .dropdown .dropdown-toggle::after {
+    content: none;
+}
+
+form .dropdown .dropdown-toggle .fa-caret-down{
+    position: absolute;
+    right: 15px;
+}
+
+.form .was-validated .dropdown .dropdown-toggle .fa-caret-down{
+    z-index: -1;
+}
+
+main h1 {
+    margin: 30px auto;
+    /* font-size: 52px; */
+    font-weight: bold;
+    color: var(--bs-gray);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.profile aside {
+    height: calc(100vh - 58px);
+    background: var(--bs-light);
+    border-right: 1px #e9ecef solid;
+}
+
+.profile aside .sidebar-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-image {
+    padding: 0.5rem;
+    background: #fff;
+    max-width: 9rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu .list-group,
+.menu .list-group .active {
+    background: var(--bs-light);
+    border-radius: 0;
+}
+
+.menu .list-group .active {
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    border-left: 2px var(--bs-primary) solid;
+    color: var(--bs-primary);
+}
+
+.profile section {
+    width: calc(100vw - 20%);
+    background: #fff;
+}
+
+.header {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    background: var(--bs-light);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.form {
+    padding: 1.2rem 1.5rem;
+}
+
+.form label {
+    margin-left: 0.75rem;
+}
+
+.form-floating label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 95%;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.modal-header .modal-title{
+    margin-top: 0px;
+    color: var(--bs-dark);
+}
